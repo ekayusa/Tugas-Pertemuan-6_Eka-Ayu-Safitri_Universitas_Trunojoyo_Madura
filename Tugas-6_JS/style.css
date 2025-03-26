@@ -1,0 +1,85 @@
+/* Gaya dasar dengan background gradasi */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #92c9ffbe, #022946);
+    text-align: center;
+}
+
+/* Container utama */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.15); /* Efek transparan */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+/* Judul */
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Tombol utama */
+button {
+    background: linear-gradient(45deg, #75dfff, #d63031);
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #28aaaf, #75dfff);
+    transform: scale(1.05);
+}
+
+/* Daftar pengguna */
+#userList {
+    margin-top: 20px;
+}
+
+/* Setiap item pengguna */
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+/* Hover efek untuk daftar pengguna */
+.user-item:hover {
+    transform: scale(1.02);
+}
+
+/* Tombol hapus */
+.delete-btn {
+    background: linear-gradient(45deg, #75dfff, #af2516);
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+    background: linear-gradient(45deg, #e74c3c, #ff4757);
+    transform: scale(1.1);
+}
